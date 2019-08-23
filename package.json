@@ -1,6 +1,6 @@
 {
-  "name": "input-validator",
-  "version": "3.6.4",
+  "name": "input-validator-node",
+  "version": "1.0.1",
   "description": "validation library for nodejs, inspired by laravel.",
   "main": "index.js",
   "scripts": {
@@ -30,26 +30,16 @@
     "image",
     "mimes"
   ],
-  "repository": "artisangang/node-input-validator",
-  "author": {
-    "name": "Harcharan Singh",
-    "email": "artisangang@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamquangmanh/input-validator.git"
   },
-  "contributors": [
-    {
-      "name": "Jakub Nietrzeba",
-      "url": "https://github.com/gluth"
-    },
-    {
-      "name": "Sergi Baños",
-      "url": "https://github.com/SergiBanos"
-    },
-    {
-      "name": "Nitin Mehra",
-      "url": "https://github.com/cybersultan"
-    }
-  ],
+  "author": "quangmanh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamquangmanh/input-validator/issues"
+  },
+  "homepage": "https://github.com/lamquangmanh/input-validator#readme",
   "dependencies": {
     "file-type": "^10.11.0",
     "image-size": "^0.7.4",

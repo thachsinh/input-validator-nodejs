@@ -1,4 +1,4 @@
-# This project copy from [npm-url]node-input-validator. I'm so sorry this, because node-input-validator package use async/await not suitable my project.
+# This project copy from [node-input-validator] package. I'm so sorry this, because node-input-validator package use async/await not suitable my project.
 
 
 ## Validation Library
@@ -20,6 +20,7 @@
 [npm-url]: https://npmjs.org/package/node-input-validator
 [node-image]: https://img.shields.io/badge/node.js-%3E=_7.6-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
+[node-input-validator]: https://npmjs.org/package/node-input-validator
 
 Validation library for node.js
 
