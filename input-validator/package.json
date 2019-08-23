@@ -1,0 +1,23 @@
+{
+  "name": "input-validator-node",
+  "version": "1.0.0",
+  "description": "Validate input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamquangmanh/input-validator.git"
+  },
+  "keywords": [
+    "input",
+    "validator"
+  ],
+  "author": "quangmanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamquangmanh/input-validator/issues"
+  },
+  "homepage": "https://github.com/lamquangmanh/input-validator#readme"
+}

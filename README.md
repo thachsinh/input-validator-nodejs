@@ -1,4 +1,4 @@
-# This project copy from node-input-validator. I'm so sorry this, because node-input-validator package use async/await not suitable my project.
+# This project copy from [npm-url]node-input-validator. I'm so sorry this, because node-input-validator package use async/await not suitable my project.
 
 
 ## Validation Library
@@ -30,7 +30,7 @@ Node Input Validator is a validation library for node.js. You can also extend li
 ## Installation
 
 ```shell
-npm install --save input-validator
+npm install --save input-validator-node
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ npm install --save input-validator
 Simple Example  
 
 ```javascript
-const v = require('input-validator');
+const v = require('input-validator-node');
 
 let validator = new v({name:''}, {name:'required|minLength:5'});
 
@@ -51,7 +51,7 @@ validator.check().then(function (matched) {
 Example usage in express application
 
 ```javascript
-const v = require('input-validator');
+const v = require('input-validator-node');
 
 app.post('login', function (req, res) {
 
@@ -71,7 +71,7 @@ app.post('login', function (req, res) {
 
 
 ```javascript
-const v = require('input-validator');
+const v = require('input-validator-node');
 
 router.post('login', async function (ctx) {
 
@@ -191,14 +191,14 @@ Validator.messages({
 #### Set default language
 
 ```javascript
-const validator = require('input-validator');
+const validator = require('input-validator-node');
 validator.setLang('pb');
 ```
 
 ### Using Custom Attribute Names
 
 ```javascript
-const validator = require('input-validator');
+const validator = require('input-validator-node');
 
 let v = new validator( ctx.request.body, {
             phone:'required',
@@ -278,7 +278,7 @@ Some example of using database in rules
 // use this rules as unique:seed
 // unique:<Mongoose Model>,<Field Name>,<ID to Ignore, This is optional>
 
-const Validator = require('input-validator');
+const Validator = require('input-validator-node');
 const mongoose = require('mongoose');
 
 Validator.extend('unique', async function (field, value, args) {
@@ -323,7 +323,7 @@ new Validator({
 Attach koa middleware
 
 ```javascript
-const validator = require('input-validator');
+const validator = require('input-validator-node');
 
 // keep this under your error handler
 app.use(validator.koa());
@@ -736,7 +736,7 @@ The field under validation must be a valid URL.
 There is set of rules which can be used to validate constraints of whole input, rather than validity of singular fields.
 
 ```javascript
-const v = require('input-validator');
+const v = require('input-validator-node');
 
 let validator = new v({name:''}, {'*': 'any:name,surname'});
 
@@ -750,7 +750,7 @@ Post validator errors are returned in the `*` key. There is also possibility to 
 with help of `addPostRule` method. Function will be called in context of validator object with input as parameter.
 
 ```javascript
-const v = require('input-validator');
+const v = require('input-validator-node');
 
 let v = new Validator({username: 'arnold', password: 'arnold123'}, {});
 
