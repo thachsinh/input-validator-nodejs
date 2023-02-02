@@ -32,14 +32,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lamquangmanh/input-validator.git"
+    "url": "git+https://github.com/thachsinh/input-validator-nodejs"
   },
-  "author": "quangmanh",
+  "author": "thachsinh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lamquangmanh/input-validator/issues"
+    "url": "https://github.com/thachsinh/input-validator-nodejs/issues"
   },
-  "homepage": "https://github.com/lamquangmanh/input-validator#readme",
+  "homepage": "https://github.com/thachsinh/input-validator-nodejs#readme",
   "dependencies": {
     "file-type": "^10.11.0",
     "image-size": "^0.7.4",
@@ -56,7 +56,7 @@
     "eslint": "^6.1.0",
     "eslint-config-google": "^0.13.0",
     "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^5",
+    "mocha": "10.2.0",
     "mocha-lcov-reporter": "^1.3.0",
     "ncp": "^2.0.0",
     "should": "^13.2.3"

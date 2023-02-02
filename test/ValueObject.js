@@ -1,5 +1,5 @@
 const Validator = require('../src/index');
-const { InvalidParam } = require('../../src/exceptions');
+const { InvalidParam } = require('../src/exceptions');
 
 class ValueObject {
 
