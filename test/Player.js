@@ -9,4 +9,4 @@ class Player extends ValueObject {
   }
 }
 
-const player = new Player({playerId: '111'});
+const player = new Player({playerId: 111});
