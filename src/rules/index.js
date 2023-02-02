@@ -45,7 +45,6 @@ exports.lengthBetween = require('./lengthBetween');
 exports.macAddress = require('./macAddress');
 exports.max = require('./max');
 exports.maxLength = require('./maxLength');
-exports.mime = require('./mime');
 exports.min = require('./min');
 exports.minLength = require('./minLength');
 exports.mongoId = require('./mongoId');

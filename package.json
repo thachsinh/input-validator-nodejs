@@ -1,6 +1,6 @@
 {
   "name": "input-validator-nodejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "validation library for nodejs, inspired by laravel.",
   "main": "index.js",
   "scripts": {
@@ -41,7 +41,6 @@
   },
   "homepage": "https://github.com/thachsinh/input-validator-nodejs#readme",
   "dependencies": {
-    "file-type": "10.10.0",
     "image-size": "^0.7.4",
     "mime-types": "^2.1.24",
     "moment": "^2.24.0",
