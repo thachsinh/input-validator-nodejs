@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/thachsinh/input-validator-nodejs#readme",
   "dependencies": {
-    "file-type": "^10.11.0",
+    "file-type": "17.1.3",
     "image-size": "^0.7.4",
     "mime-types": "^2.1.24",
     "moment": "^2.24.0",
