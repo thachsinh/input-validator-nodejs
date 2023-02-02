@@ -63,5 +63,8 @@
   },
   "directories": {
     "test": "test"
+  },
+  "publishConfig": {
+    "@thachsinh:registry": "https://npm.pkg.github.com"
   }
 }
